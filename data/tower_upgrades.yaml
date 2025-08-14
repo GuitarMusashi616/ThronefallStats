@@ -1,0 +1,4646 @@
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Armored Tower
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Healing Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Hunting Equipment
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Ballistic Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Health
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Bunker Tower
+  cooldown: 2
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 1.2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Range
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 1.2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Insane Damage
+  cooldown: 2
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 1.2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Sniper Tower
+  cooldown: 2
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Archers Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 1.2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Fire Spire
+  cooldown: 2
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying

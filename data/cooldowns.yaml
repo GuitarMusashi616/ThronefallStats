@@ -1,0 +1,3117 @@
+- name: E Giraffeslime
+  hp: 30
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: E Moleman Archer
+  hp: 50
+  cooldown: 2
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+- name: E Eldermole
+  hp: 10000
+  cooldown: 0.5
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Boss
+- name: Projectile Flying Wizzard
+  hp: -1
+  cooldown: -1
+  traits: 
+    - MagicProjectile
+- name: E Ghost
+  hp: 100
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - TakesReducedDamageFromPlayerAttacks
+- name: E Big Spider
+  hp: 800
+  cooldown: 0.3
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+    - LargeUnit
+- name: E StrongGiraffeslime
+  hp: 100
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: E Bloodwing
+  hp: 50
+  cooldown: 0.5
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - FastMoving
+    - Monster
+    - Flying
+- name: E Archer
+  hp: 20
+  cooldown: 2
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Ogre
+  hp: 200
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+- name: E Fury
+  hp: 75
+  cooldown: 4
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+- name: E Small Spider
+  hp: 12.5
+  cooldown: 0.4
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+- name: E Windboat
+  hp: 300
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - SiegeWeapon
+- name: E Iron Tower
+  hp: 200
+  cooldown: 0.5
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+    - FireAndExplosionResistant
+- name: E Quicksling
+  hp: 55
+  cooldown: 0.45
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+- name: E Flail
+  hp: 55
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Projectile Quicksling
+  hp: -1
+  cooldown: -1
+  traits: 
+    - BlockableEnemyProjectile
+- name: E Medium Spider
+  hp: 50
+  cooldown: 0.4
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+- name: E Exploder
+  hp: 65
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - TakesReducedDamageFromPlayerAttacks
+    - Monster
+    - SiegeWeapon
+    - Exploding
+- name: E Racer
+  hp: 35
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - TakesReducedDamageFromPlayerAttacks
+    - FastMoving
+    - Monster
+- name: E Flyer
+  hp: 25
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+- name: E Crossbow
+  hp: 40
+  cooldown: 1.6
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+- name: E Defensive Melee Variant
+  hp: 25
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Hunterling
+  hp: 30
+  cooldown: 0.5
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: E Projectile Bow
+  hp: -1
+  cooldown: -1
+  traits: 
+    - BlockableEnemyProjectile
+- name: E Flogre
+  hp: 275
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Wheel
+  hp: 180
+  cooldown: 0.25
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - SiegeWeapon
+- name: E Slime
+  hp: 12.5
+  cooldown: 0.4
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: E Moleman
+  hp: 60
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+- name: E Fire Snail
+  hp: 45
+  cooldown: 0.4
+  traits: 
+    - EnemyOwned
+    - Monster
+    - MeeleFighter
+    - FireAndExplosionResistant
+- name: E StrongSlime
+  hp: 50
+  cooldown: 0.4
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: E BarrelKnight
+  hp: 100
+  cooldown: 1.25
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - NaturallyHighHealthTarget
+- name: E Weakling
+  hp: 8.7
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Melee
+  hp: 25
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Catapult
+  hp: 45
+  cooldown: 5
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+- name: E Dark Warrior
+  hp: 135
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+    - FastMoving
+- name: E Flying Wizzard
+  hp: 45
+  cooldown: 2
+  traits: 
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Humanoid
+- name: Projectile Slimes
+  hp: -1
+  cooldown: -1
+  traits: 
+    - BlockableEnemyProjectile
+- name: E Thing
+  hp: 1100
+  cooldown: 0.3
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - LargeUnit
+- name: E Defensive Ogre Variant
+  hp: 200
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+- name: E Monster Rider
+  hp: 40
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - Humanoid
+- name: E Ram
+  hp: 250
+  cooldown: 2
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - ArmoredAgainstRanged
+    - NaturallyHighHealthTarget
+    - LargeUnit
+- name: E LongSpear
+  hp: 25
+  cooldown: 1
+  traits: 
+    - EnemyOwned
+    - MeeleFighter
+    - VulnerableVsRanged
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Firewing
+  hp: 30
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - Flying
+    - PlayerHeroUnit
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 50
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Lizzard Rider
+  hp: 60
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - PlayerHeroUnit
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee (1)
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Support Mage
+  hp: 75
+  cooldown: 0.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - Healer
+    - PlayerHeroUnit
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 300
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - CastleCenter
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: Building Parent
+  hp: 80
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 80
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 60
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits: 
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits: 
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits: 
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits: 
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits: 
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Golem
+  hp: 360
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - PlayerHeroUnit
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: Player Character
+  hp: 87.5
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Player
+    - AUTO_Alive
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits: 
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits: 
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits: 
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget

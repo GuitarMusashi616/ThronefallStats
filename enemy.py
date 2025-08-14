@@ -27,6 +27,29 @@ class EnemyTrait(Enum):
     HIGH_HEALTH = auto()
     HERO_RESISTANT = auto()
 
+    # Moonloader types
+    ArmoredAgainstRanged = auto()
+    NaturallyVulnerableToSplash = auto()
+    FastMoving = auto()
+    MeeleFighter = auto()
+    NaturallyHighHealthTarget = auto()
+    Monster = auto()
+    Exploding = auto()
+    FireAndExplosionResistant = auto()
+    EnemyOwned = auto()
+    Player = auto()
+    TakesReducedDamageFromPlayerAttacks = auto()
+    Humanoid = auto()
+    TakesIncreasedDamageFromTowers = auto()
+    AUTO_Alive = auto()
+    SiegeWeapon = auto()
+    LargeUnit = auto()
+    RangedFighter = auto()
+    PlayerOwned = auto()
+    Flying = auto()
+    Boss = auto()
+    VulnerableVsRanged = auto()
+
     def __repr__(self) -> str:
         return self.name
 

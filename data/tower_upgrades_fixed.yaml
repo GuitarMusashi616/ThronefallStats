@@ -1,0 +1,80 @@
+- name: Tower Attack
+  type: AutoAttackTower
+  cooldown: 2
+  directDamage:
+    - damageAdded: 8
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - TakesIncreasedDamageFromTowers
+    - damageAdded: 0
+      damageMult: 0.6
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.15
+      requiredTags:
+        - Flying
+- name: Castle Tower
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.6
+  projSpeedMult: 2
+- name: Sniper Tower
+  rangeMult: 1.5
+  dmgMult: 2.8
+  cooldownMult: 2
+  projSpeedMult: 1.5
+- name: Armored Tower
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+- name: Bunker Tower
+  rangeMult: 0.55
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1
+- name: Archers Spire
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 0.7
+  projSpeedMult: 1
+- name: Ballistic Spire
+  rangeMult: 1
+  dmgMult: 5.5
+  cooldownMult: 1.5
+  projSpeedMult: 1.5
+- name: Fire Spire
+  rangeMult: 1
+  dmgMult: 0.75
+  cooldownMult: 1
+  projSpeedMult: 1
+- name: Healing Spire
+  rangeMult: 1
+  dmgMult: 1.1
+  cooldownMult: 0.7
+  projSpeedMult: 1.5
+- name: Insane Range
+  rangeMult: 1.5
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1.5
+- name: Insane Damage
+  rangeMult: 0.75
+  dmgMult: 3.5
+  cooldownMult: 1
+  projSpeedMult: 1
+- name: Insane Health
+  rangeMult: 1
+  dmgMult: 2
+  cooldownMult: 1
+  projSpeedMult: 1
+- name: Hunting Equipment
+  rangeMult: 1
+  dmgMult: 1
+  cooldownMult: 1
+  projSpeedMult: 1

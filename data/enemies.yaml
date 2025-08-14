@@ -1,0 +1,293 @@
+- name: "E Giraffeslime"
+  hp: 30
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: "E Moleman Archer"
+  hp: 50
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+- name: "E The Corrupt King"
+  hp: 10000
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Boss
+- name: "E Ghost"
+  hp: 100
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - TakesReducedDamageFromPlayerAttacks
+- name: "E Big Spider"
+  hp: 800
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+    - LargeUnit
+- name: "E StrongGiraffeslime"
+  hp: 100
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: "E Bloodwing"
+  hp: 50
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - FastMoving
+    - Monster
+    - Flying
+- name: "E Archer"
+  hp: 20
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "E Ogre"
+  hp: 200
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+- name: "E Fury"
+  hp: 75
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+- name: "E Small Spider"
+  hp: 12.5
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+- name: "E Windboat"
+  hp: 300
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - SiegeWeapon
+- name: "E Iron Tower"
+  hp: 200
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+    - FireAndExplosionResistant
+- name: "E Quicksling"
+  hp: 55
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+- name: "E Flail"
+  hp: 55
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "E Medium Spider"
+  hp: 50
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+- name: "E Exploder"
+  hp: 65
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - TakesReducedDamageFromPlayerAttacks
+    - Monster
+    - SiegeWeapon
+    - Exploding
+- name: "E Racer"
+  hp: 35
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesReducedDamageFromPlayerAttacks
+    - FastMoving
+    - Monster
+- name: "E Wasp"
+  hp: 25
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+- name: "E Crossbow"
+  hp: 40
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+- name: "E Defensive Melee Variant"
+  hp: 25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "E Hunterling"
+  hp: 30
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: "E Flogre"
+  hp: 275
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "E Wheel"
+  hp: 180
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - SiegeWeapon
+- name: "E Slime"
+  hp: 12.5
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: "E Moleman"
+  hp: 60
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+- name: "E Fire Snail"
+  hp: 45
+  traits:
+    - EnemyOwned
+    - Monster
+    - MeeleFighter
+    - FireAndExplosionResistant
+- name: "E StrongSlime"
+  hp: 50
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+- name: "E BarrelKnight"
+  hp: 100
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - NaturallyHighHealthTarget
+- name: "E Weakling"
+  hp: 8.7
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "E Melee"
+  hp: 25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "E Catapult"
+  hp: 45
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+- name: "E Dark Warrior"
+  hp: 135
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+    - FastMoving
+- name: "E Flying Mage"
+  hp: 45
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Humanoid
+- name: "E Thing"
+  hp: 1100
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - LargeUnit
+- name: "E Defensive Ogre Variant"
+  hp: 200
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+- name: "E Monster Rider"
+  hp: 40
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - Humanoid
+- name: "E Ram"
+  hp: 250
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - ArmoredAgainstRanged
+    - NaturallyHighHealthTarget
+    - LargeUnit
+- name: "E Pikes"
+  hp: 25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - VulnerableVsRanged
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: "Player Character"
+  hp: 50
+  traits:
+    - PlayerOwned
+    - Player
+    - AUTO_Alive

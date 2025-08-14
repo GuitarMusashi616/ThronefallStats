@@ -1,0 +1,6551 @@
+- name: E Giraffeslime
+  hp: 30
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 1.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.33
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.66
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Moleman Archer
+  hp: 50
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+  directDamage:
+    - damageAdded: 3.75
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.8
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.4
+      requiredTags:
+        - PlayerUnit
+- name: E Eldermole
+  hp: 10000
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Boss
+  directDamage:
+    - damageAdded: 22.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - CastleCenter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Player
+- name: Projectile Flying Wizzard
+  hp: -1
+  cooldown: -1
+  traits:
+    - MagicProjectile
+- name: E Ghost
+  hp: 100
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - TakesReducedDamageFromPlayerAttacks
+  directDamage:
+    - damageAdded: 6.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 1.55
+      requiredTags:
+        - Tower
+- name: E Big Spider
+  hp: 800
+  cooldown: 0.3
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+    - LargeUnit
+  directDamage:
+    - damageAdded: 12
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.3
+      requiredTags:
+        - Building
+- name: E StrongGiraffeslime
+  hp: 100
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.33
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.66
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Bloodwing
+  hp: 50
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - FastMoving
+    - Monster
+    - Flying
+  directDamage:
+    - damageAdded: 3
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Player
+- name: E Archer
+  hp: 20
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.8
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Ogre
+  hp: 200
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+  directDamage:
+    - damageAdded: 20
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - PlayerUnit
+- name: E Fury
+  hp: 75
+  cooldown: 4
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+  directDamage:
+    - damageAdded: 30
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Small Spider
+  hp: 12.5
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+  directDamage:
+    - damageAdded: 2.4
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.05
+      requiredTags:
+        - Building
+- name: E Windboat
+  hp: 300
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - SiegeWeapon
+  directDamage:
+    - damageAdded: 15
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Iron Tower
+  hp: 200
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.8
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Quicksling
+  hp: 55
+  cooldown: 0.45
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+  directDamage:
+    - damageAdded: 9.775
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.7
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Flail
+  hp: 55
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Projectile Quicksling
+  hp: -1
+  cooldown: -1
+  traits:
+    - BlockableEnemyProjectile
+- name: E Medium Spider
+  hp: 50
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+  directDamage:
+    - damageAdded: 6
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.05
+      requiredTags:
+        - Building
+- name: E Exploder
+  hp: 65
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - TakesReducedDamageFromPlayerAttacks
+    - Monster
+    - SiegeWeapon
+    - Exploding
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Racer
+  hp: 35
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesReducedDamageFromPlayerAttacks
+    - FastMoving
+    - Monster
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - CastleCenter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Wall
+- name: E Flyer
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: E Crossbow
+  hp: 40
+  cooldown: 1.6
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+  directDamage:
+    - damageAdded: 15
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.15
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Defensive Melee Variant
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Hunterling
+  hp: 30
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 10
+      damageMult: 1
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.25
+      requiredTags:
+        - InfrastructureEconomy
+    - damageAdded: 0
+      damageMult: 0.25
+      requiredTags:
+        - MeeleFighter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Wall
+- name: E Projectile Bow
+  hp: -1
+  cooldown: -1
+  traits:
+    - BlockableEnemyProjectile
+- name: E Flogre
+  hp: 275
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+- name: E Wheel
+  hp: 180
+  cooldown: 0.25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - SiegeWeapon
+- name: E Slime
+  hp: 12.5
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 1.2
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+- name: E Moleman
+  hp: 60
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+  directDamage:
+    - damageAdded: 5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.25
+      requiredTags:
+        - CastleCenter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Tower
+- name: E Fire Snail
+  hp: 45
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - Monster
+    - MeeleFighter
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 1.2
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+- name: E StrongSlime
+  hp: 50
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 3.6
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.33
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - MeeleFighter
+- name: E BarrelKnight
+  hp: 100
+  cooldown: 1.25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - NaturallyHighHealthTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Weakling
+  hp: 8.7
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 1
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Melee
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Catapult
+  hp: 45
+  cooldown: 5
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+  directDamage:
+    - damageAdded: 150
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+        - Building
+    - damageAdded: 0
+      damageMult: 0.2
+      requiredTags:
+        - CastleCenter
+- name: E Dark Warrior
+  hp: 135
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+    - FastMoving
+  directDamage:
+    - damageAdded: 10
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - MeeleFighter
+        - PlayerUnit
+- name: E Flying Wizzard
+  hp: 45
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Humanoid
+  directDamage:
+    - damageAdded: 2
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - CastleCenter
+- name: Projectile Slimes
+  hp: -1
+  cooldown: -1
+  traits:
+    - BlockableEnemyProjectile
+- name: E Thing
+  hp: 1100
+  cooldown: 0.3
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - LargeUnit
+- name: E Defensive Ogre Variant
+  hp: 200
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+  directDamage:
+    - damageAdded: 20
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - PlayerUnit
+- name: E Monster Rider
+  hp: 40
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - Humanoid
+  directDamage:
+    - damageAdded: 3
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Ram
+  hp: 250
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - ArmoredAgainstRanged
+    - NaturallyHighHealthTarget
+    - LargeUnit
+  directDamage:
+    - damageAdded: 15
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E LongSpear
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - VulnerableVsRanged
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Firewing
+  hp: 30
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - Flying
+    - PlayerHeroUnit
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - FireAndExplosionResistant
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: Building Parent
+  hp: 50
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - TrainingFacility
+    - AUTO_Alive
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 10
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+    - UselessWallThatDoesNotBlockPath
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Lizzard Rider
+  hp: 60
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - PlayerHeroUnit
+  directDamage:
+    - damageAdded: 5.4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - RangedFighter
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee (1)
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Support Mage
+  hp: 75
+  cooldown: 0.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - Healer
+    - PlayerHeroUnit
+  directDamage:
+    - damageAdded: -3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: Building Parent
+  hp: 300
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - CastleCenter
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 30
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: Building Parent
+  hp: 80
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 80
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 20
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - House
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 60
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - InfrastructureEconomy
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits:
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits:
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits:
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits:
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 777
+  cooldown: -1
+  traits:
+    - Building
+    - PlayerShrine
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: Building Parent
+  hp: 150
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - WallOrTower
+    - Tower
+    - PlayerOwnedPriorityTarget
+    - AUTO_Alive
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Golem
+  hp: 360
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - PlayerHeroUnit
+  directDamage:
+    - damageAdded: 33
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Berserk
+  hp: 58.5
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - SiegeWeapon
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Speer
+  hp: 66
+  cooldown: 0.5
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.02125
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - FastMoving
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - RangedFighter
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: Player Character
+  hp: 87.5
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Player
+    - AUTO_Alive
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Morningstar
+  hp: 70
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Knight
+  hp: 105
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Fire Archer
+  hp: 20
+  cooldown: 3
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+        - Flying
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: Building Parent
+  hp: 360
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Building
+    - Wall
+    - WallOrTower
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Archer
+  hp: 35
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Melee
+  hp: 60
+  cooldown: 1
+  traits:
+    - PlayerOwned
+    - MeeleFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Hunters
+  hp: 45
+  cooldown: 1.4
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - VulnerableVsRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 2.73913
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.555555
+      requiredTags:
+        - Monster
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2
+      requiredTags:
+        - Flying
+        - Monster
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Crossbows
+  hp: 45
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - ArmoredAgainstRanged
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 7
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 2.25
+      requiredTags:
+        - EnemyOwned
+        - RangedFighter
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 1.33
+      requiredTags:
+        - VulnerableVsRanged
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid
+- name: P Longbows
+  hp: 25
+  cooldown: 2
+  traits:
+    - PlayerOwned
+    - RangedFighter
+    - PlayerUnit
+    - PlayerOwnedPriorityTarget
+  directDamage:
+    - damageAdded: 4
+      damageMult: 1
+      requiredTags:
+        - EnemyOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Humanoid
+    - damageAdded: 0
+      damageMult: 1.2
+      requiredTags:
+        - Flying
+    - damageAdded: 0
+      damageMult: 2.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.6
+      requiredTags:
+        - Humanoid

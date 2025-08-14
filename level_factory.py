@@ -121,8 +121,8 @@ def uferwind_level_factory() -> Level:
 #     Wave([wasps(30), flying_mages(30), furies(14)]),
 #     Wave([mole_archers(85), mole_knights(70), swordsmen(45), racers(30), pikes(30), quickslings(16), exploders(10)]),
 #     Wave([strange_statues(4)]),
-def totend_level_factory():
-    """
+def totend_level_input() -> str:
+    return """
     20 Fire Snail
     6 Darf Warrior, 1 Iron Tower
     20 Flying Mage, 50 Small Spider, 10 Racer, 45 Slime, 25 Giraffe Slime

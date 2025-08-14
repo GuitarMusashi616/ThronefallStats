@@ -1,0 +1,94 @@
+import yaml
+from typing import List
+
+def load_data():
+    content = open('data/dps_fixed.yaml').read()
+    data = yaml.safe_load(content)
+    return data
+
+def load_unique():
+    data = load_data()
+    names = set()
+    result = []
+    for row in data:
+        name = row['name'] 
+        if name not in names:
+            names.add(name)
+            result.append(row)
+    return result
+
+def simple_dps_hp_of_each():
+    for row in load_unique():
+        try:
+            name = row['name'] 
+            hp = row['hp'] 
+
+            print(name)
+            print(f"hp: {hp}")
+            # print(f"dmg: {row['directDamage'][0]['damageAdded']}")
+            # print(f"cooldown: {row['cooldown']}")
+            if 'directDamage' in row:
+                dmg = row['directDamage'][0]['damageAdded']
+                cooldown = row['cooldown']
+                print(f"dps: {dmg/cooldown}")
+            print()
+        except (KeyError, TypeError):
+            pass
+
+def simple_dps_hp_cost_of_each():
+    for row in load_unique():
+        try:
+            name = row['name'] 
+            hp = row['hp'] 
+
+            if "P " not in name:
+                continue
+
+            print(name)
+            print(f"hp: {hp}")
+            # print(f"dmg: {row['directDamage'][0]['damageAdded']}")
+            # print(f"cooldown: {row['cooldown']}")
+            if 'directDamage' in row:
+                quantity = 4
+                cost = 4
+                cooldown = row['cooldown']
+                heroes = {"P Support Mage", "P Lizzard Rider", "P Golem", "P Firewing"}
+                
+                if name in heroes:
+                    cost = 6
+                    quantity = 1
+
+                dmg = row['directDamage'][0]['damageAdded'] * quantity
+
+                print(f"dps: {dmg/cooldown}")
+                print(f"dps/cost: {(dmg/cooldown)/cost}")
+
+            print()
+        except (KeyError, TypeError):
+            pass
+
+class DamageTrait:
+    def __init__(self, damage_added: float, damage_mult: float, req_traits: List[str]):
+        self.damage_added = damage_added
+        self.damage_mult = damage_mult
+        self.req_traits = req_traits
+
+class DamageTraits:
+    def __init__(self, damage_traits: List[DamageTrait]):
+        self.damage_traits = damage_traits
+
+    def get(self, against_type: List[str]):
+        pass
+
+class Fighter:
+    def __init__(self, hp: float, dmg: float, cooldown: float):
+        self.hp = hp
+        self.dmg = dmg
+        self.cooldown = cooldown
+    
+    @property
+    def dps(self) -> float:
+        return self.dmg / self.cooldown
+
+if __name__ == "__main__":
+    simple_dps_hp_cost_of_each()

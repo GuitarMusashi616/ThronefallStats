@@ -1,0 +1,766 @@
+- name: E Giraffeslime
+  hp: 30
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 1.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.33
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.66
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Moleman Archer
+  hp: 50
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+  directDamage:
+    - damageAdded: 3.75
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.8
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 1.4
+      requiredTags:
+        - PlayerUnit
+- name: E Eldermole
+  hp: 10000
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Boss
+  directDamage:
+    - damageAdded: 22.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - CastleCenter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Player
+- name: Projectile Flying Wizzard
+  hp: -1
+  cooldown: -1
+  traits:
+    - MagicProjectile
+- name: E Ghost
+  hp: 100
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - TakesReducedDamageFromPlayerAttacks
+  directDamage:
+    - damageAdded: 6.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 1.55
+      requiredTags:
+        - Tower
+- name: E Big Spider
+  hp: 800
+  cooldown: 0.3
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+    - LargeUnit
+  directDamage:
+    - damageAdded: 12
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.3
+      requiredTags:
+        - Building
+- name: E StrongGiraffeslime
+  hp: 100
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.33
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.66
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Bloodwing
+  hp: 50
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - FastMoving
+    - Monster
+    - Flying
+  directDamage:
+    - damageAdded: 3
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Player
+- name: E Archer
+  hp: 20
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.8
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Ogre
+  hp: 200
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+  directDamage:
+    - damageAdded: 20
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - PlayerUnit
+- name: E Fury
+  hp: 75
+  cooldown: 4
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+  directDamage:
+    - damageAdded: 30
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Small Spider
+  hp: 12.5
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+  directDamage:
+    - damageAdded: 2.4
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.05
+      requiredTags:
+        - Building
+- name: E Windboat
+  hp: 300
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - SiegeWeapon
+  directDamage:
+    - damageAdded: 15
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Iron Tower
+  hp: 200
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.8
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Quicksling
+  hp: 55
+  cooldown: 0.45
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+  directDamage:
+    - damageAdded: 9.775
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.7
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Flail
+  hp: 55
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+- name: E Projectile Quicksling
+  hp: -1
+  cooldown: -1
+  traits:
+    - BlockableEnemyProjectile
+- name: E Medium Spider
+  hp: 50
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+    - FastMoving
+  directDamage:
+    - damageAdded: 6
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.05
+      requiredTags:
+        - Building
+- name: E Exploder
+  hp: 65
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - TakesReducedDamageFromPlayerAttacks
+    - Monster
+    - SiegeWeapon
+    - Exploding
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Racer
+  hp: 35
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesReducedDamageFromPlayerAttacks
+    - FastMoving
+    - Monster
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - CastleCenter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Wall
+- name: E Flyer
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Monster
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+- name: E Crossbow
+  hp: 40
+  cooldown: 1.6
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+  directDamage:
+    - damageAdded: 15
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.75
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.15
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.4
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+- name: E Defensive Melee Variant
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Hunterling
+  hp: 30
+  cooldown: 0.5
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 10
+      damageMult: 1
+      requiredTags:
+        - Player
+    - damageAdded: 0
+      damageMult: 0.25
+      requiredTags:
+        - InfrastructureEconomy
+    - damageAdded: 0
+      damageMult: 0.25
+      requiredTags:
+        - MeeleFighter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Wall
+- name: E Projectile Bow
+  hp: -1
+  cooldown: -1
+  traits:
+    - BlockableEnemyProjectile
+- name: E Flogre
+  hp: 275
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+- name: E Wheel
+  hp: 180
+  cooldown: 0.25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - SiegeWeapon
+  directDamage:
+- name: E Slime
+  hp: 12.5
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 1.2
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+- name: E Moleman
+  hp: 60
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - TakesIncreasedDamageFromTowers
+    - Humanoid
+  directDamage:
+    - damageAdded: 5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.25
+      requiredTags:
+        - CastleCenter
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Tower
+- name: E Fire Snail
+  hp: 45
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - Monster
+    - MeeleFighter
+    - FireAndExplosionResistant
+  directDamage:
+    - damageAdded: 1.2
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - Building
+- name: E StrongSlime
+  hp: 50
+  cooldown: 0.4
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - NaturallyVulnerableToSplash
+  directDamage:
+    - damageAdded: 3.6
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.33
+      requiredTags:
+        - Building
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - MeeleFighter
+- name: E BarrelKnight
+  hp: 100
+  cooldown: 1.25
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - NaturallyHighHealthTarget
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Weakling
+  hp: 8.7
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 1
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Melee
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 2.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Catapult
+  hp: 45
+  cooldown: 5
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - SiegeWeapon
+  directDamage:
+    - damageAdded: 150
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+        - Building
+    - damageAdded: 0
+      damageMult: 0.2
+      requiredTags:
+        - CastleCenter
+- name: E Dark Warrior
+  hp: 135
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyVulnerableToSplash
+    - Humanoid
+    - FastMoving
+  directDamage:
+    - damageAdded: 10
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - MeeleFighter
+        - PlayerUnit
+- name: E Flying Wizzard
+  hp: 45
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - RangedFighter
+    - Flying
+    - Humanoid
+  directDamage:
+    - damageAdded: 2
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - ArmoredAgainstRanged
+    - damageAdded: 0
+      damageMult: 1.5
+      requiredTags:
+        - VulnerableVsRanged
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - CastleCenter
+- name: Projectile Slimes
+  hp: -1
+  cooldown: -1
+  traits:
+    - BlockableEnemyProjectile
+- name: E Thing
+  hp: 1100
+  cooldown: 0.3
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - Monster
+    - LargeUnit
+  directDamage:
+- name: E Defensive Ogre Variant
+  hp: 200
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - NaturallyHighHealthTarget
+    - Humanoid
+  directDamage:
+    - damageAdded: 20
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+    - damageAdded: 0
+      damageMult: 0.5
+      requiredTags:
+        - PlayerUnit
+- name: E Monster Rider
+  hp: 40
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - FastMoving
+    - Monster
+    - Humanoid
+  directDamage:
+    - damageAdded: 3
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E Ram
+  hp: 250
+  cooldown: 2
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - SiegeWeapon
+    - ArmoredAgainstRanged
+    - NaturallyHighHealthTarget
+    - LargeUnit
+  directDamage:
+    - damageAdded: 15
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: E LongSpear
+  hp: 25
+  cooldown: 1
+  traits:
+    - EnemyOwned
+    - MeeleFighter
+    - VulnerableVsRanged
+    - NaturallyVulnerableToSplash
+    - Humanoid
+  directDamage:
+    - damageAdded: 3.5
+      damageMult: 1
+      requiredTags:
+        - PlayerOwned
+- name: Player Character
+  hp: 50
+  cooldown: -1
+  traits:
+    - PlayerOwned
+    - Player
+    - AUTO_Alive
