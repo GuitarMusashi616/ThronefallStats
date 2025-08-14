@@ -1,6 +1,7 @@
 # pyright: strict
 
 from __future__ import annotations
+from collections import defaultdict
 from enum import Enum, auto
 from functools import reduce
 from typing import Iterator, List, Set, Tuple
@@ -63,6 +64,9 @@ class EnemyTraits:
     
     def has(self, trait: EnemyTrait) -> bool:
         return trait in self.traits
+    
+    def as_tuple(self):
+        return tuple(self.traits)
     
     def __iter__(self) -> Iterator[EnemyTrait]:
         return iter(self.traits)
@@ -177,6 +181,23 @@ class Wave:
         for perc, trait in weighted_traits:
             print(f"{perc:.2%}\t{trait}")
         print()
+
+    def all_trait_groups(self, is_hp_weighted: bool=False):
+        print(self)
+        counter = defaultdict(int) # type: ignore
+        for enemy in self.enemies:
+            tup = enemy.traits.as_tuple()
+            counter[tup] += 1 if not is_hp_weighted else enemy.hp # type: ignore
+
+        total = sum(counter.values()) # type: ignore
+
+        counter_sorted = list(counter.items()) # type: ignore
+        counter_sorted.sort(key = lambda x: x[1], reverse=True) # type: ignore
+
+        for trait_group, count in counter_sorted: # type: ignore
+            perc = count / total
+            print(f"{perc:.2%}\t{trait_group}")
+        print()
     
     def __repr__(self) -> str:
         return repr(self.enemies)
@@ -202,6 +223,12 @@ class Level:
         print("Whole Level")
         wave = self.combined()
         wave.all_traits(is_hp_weighted)
+        print()
+
+    def all_trait_groups(self, is_hp_weighted: bool=False):
+        print("Whole Level Groups")
+        wave = self.combined()
+        wave.all_trait_groups(is_hp_weighted)
         print()
 
     def combined(self) -> Wave:

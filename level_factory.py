@@ -121,6 +121,7 @@ def uferwind_level_factory() -> Level:
 #     Wave([wasps(30), flying_mages(30), furies(14)]),
 #     Wave([mole_archers(85), mole_knights(70), swordsmen(45), racers(30), pikes(30), quickslings(16), exploders(10)]),
 #     Wave([strange_statues(4)]),
+
 def totend_level_input() -> str:
     return """
     20 Fire Snail
@@ -138,4 +139,12 @@ def totend_level_input() -> str:
     30 Fire Snail, 20 Quicksling, 100 Darf Warrior, 20 Ram
     9 Thing, 24 Iron Tower, 9 Catapult, 18 Big Spider, 20 Wind Boat, 40 Darf Warrior
     1 The Corrupt King
+    """
+
+def defense_puzzle_input() -> str:
+    return """
+    100 Barrel Knight
+    50 Ram, 100 Racers
+    50 Fury, 50 Ogre
+    50 Quicksling, 50 Exploder, 50 Monster Rider
     """

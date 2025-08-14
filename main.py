@@ -13,15 +13,17 @@ def main():
 
 
 def main2():
-    content = totend_level_input()
+    # content = totend_level_input()
+    content = defense_puzzle_input()
     parser = LevelParser(content, EnemyFactoryMelon())
     level = parser.parse()
-    level.all_traits_by_wave()
+    level.all_traits_by_wave(True)
 
     print("# Units:\n")
     level.all_traits(False)
     print("HP Weighted:\n")
     level.all_traits(True)
+    level.all_trait_groups(True)
 
 
 
