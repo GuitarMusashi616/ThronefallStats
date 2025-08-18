@@ -51,6 +51,17 @@ class EnemyTrait(Enum):
     Boss = auto()
     VulnerableVsRanged = auto()
 
+    # Even more
+    Building = auto()
+    PlayerUnit = auto()
+    CastleCenter = auto()
+    Tower = auto()
+    Wall = auto()
+    InfrastructureEconomy = auto()
+    PlayerOwnedPriorityTarget = auto()
+    PlayerHeroUnit = auto()
+    Healer = auto()
+
     def __repr__(self) -> str:
         return self.name
 

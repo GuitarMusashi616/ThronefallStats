@@ -38,5 +38,5 @@ def analyze_data():
     yaml.dump(list(dic.values()), open('data/dps_small.yaml', 'w'))
 
 if __name__ == "__main__":
-    analyze_data();
+    analyze_data()
 

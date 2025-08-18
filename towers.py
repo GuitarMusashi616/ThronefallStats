@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 import yaml
-from typing import List
+from typing import Dict, List
 from copy import deepcopy
 
 # class DirectDamage:
@@ -19,6 +19,44 @@ def load_data():
     content = open('data/tower_upgrades_fixed.yaml').read()
     data = yaml.safe_load(content)
     return data
+
+
+def all_towers() -> Dict[str, Tower]:
+    result = {}
+    data = load_data()
+    base_tower = data[0]
+
+    tower_attack = Tower(base_tower['name'], base_tower['directDamage'][0]['damageAdded'], base_tower['cooldown'])
+    result[tower_attack.name] = tower_attack
+
+    tower_upgrades = {}
+
+    for row in data[1:]:
+        name = row['name']
+        tower_upgrades[name] = TowerUpgrade(**row)
+    
+    for name, upgrade in list(tower_upgrades.items())[:4]:
+        t_tower = deepcopy(tower_attack)
+        upgrade.addedCost = 5
+        t_tower.upgrade_with(upgrade)
+        result[t_tower.name] = t_tower
+
+        for name2, upgrade2 in list(tower_upgrades.items())[4:8]:
+            upgrade2.addedCost = 15
+            archer_spire = deepcopy(t_tower)
+            archer_spire.upgrade_with(upgrade2)
+            archer_spire.name = name + " " + name2
+            result[archer_spire.name] = archer_spire
+        
+    return result
+    
+def towers_sorted():
+    tower_dic = all_towers()
+    tower_ls = list(tower_dic.values())
+    tower_ls.sort(key = lambda x: x.dps_per_dollar, reverse=True)
+    for tower in tower_ls:
+        tower.print()
+
 
 def towers():
     data = load_data()
@@ -64,48 +102,53 @@ def towers():
     
 def super_bunker(bunker):
     bunker.print()
-    print(f"Time to full speed: {(bunker.cooldown/bunker.time_per_sec) * 25}")
+    print(f"Time to full speed: {(bunker._cooldown/bunker._time_per_sec) * 25}")
 
     print("- With Tower Power")
-    bunker.time_per_sec += 2.66
+    bunker._time_per_sec += 2.66
     # bunker.cooldown = bunker.cooldown / time_per_sec
     bunker.print()
-    print(f"- Time to full speed: {(bunker.cooldown/bunker.time_per_sec) * 25}")
+    print(f"- Time to full speed: {(bunker._cooldown/bunker._time_per_sec) * 25}")
 
     print(f"At Full Speed")
-    bunker.time_per_sec += 5
+    bunker._time_per_sec += 5
     bunker.print()
     print()
-
-
-
-
-
 
 
 class Tower:
     def __init__(self, name, dmg, cooldown, cost=3, time_per_sec=1):
         self.name = name
         self.dmg = dmg
-        self.cooldown = cooldown
+        self._cooldown = cooldown
         self.cost = cost
-        self.time_per_sec = time_per_sec
-
+        self._time_per_sec = time_per_sec
+    
+    @property
+    def cooldown(self):
+        return self._cooldown / self._time_per_sec
+    
+    @property
+    def dps(self):
+        return self.dmg / self.cooldown
+    
+    @property
+    def dps_per_dollar(self):
+        return self.dps/self.cost
+    
     def print(self):
         print(self.name)
-        cooldown = self.cooldown / self.time_per_sec
-        dps = self.dmg / cooldown
         print(f"{self.dmg: .2f}:\tdmg")
-        print(f"{cooldown: .2f}:\tcooldown")
+        print(f"{self.cooldown: .2f}:\tcooldown")
         print(f"{self.cost: .2f}:\tcost")
-        print(f"{dps: .2f}:\tDPS")
-        print(f"{(dps/self.cost): .2f}:\tDPS/cost")
+        print(f"{self.dps: .2f}:\tDPS")
+        print(f"{self.dps_per_dollar: .2f}:\tDPS/$")
         print()
     
     def upgrade_with(self, upgrade: TowerUpgrade):
         self.name = upgrade.name
         self.dmg *= upgrade.dmgMult
-        self.cooldown *= upgrade.cooldownMult
+        self._cooldown *= upgrade.cooldownMult
         self.cost += upgrade.addedCost
 
 
@@ -120,3 +163,4 @@ class TowerUpgrade:
     
 if __name__ == "__main__":
     towers()
+    # towers_sorted()

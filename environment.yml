@@ -1,0 +1,5 @@
+name: Thronefall
+channels:
+  - defaults
+dependencies:
+  - pyyaml

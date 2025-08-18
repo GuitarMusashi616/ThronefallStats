@@ -67,28 +67,5 @@ def simple_dps_hp_cost_of_each():
         except (KeyError, TypeError):
             pass
 
-class DamageTrait:
-    def __init__(self, damage_added: float, damage_mult: float, req_traits: List[str]):
-        self.damage_added = damage_added
-        self.damage_mult = damage_mult
-        self.req_traits = req_traits
-
-class DamageTraits:
-    def __init__(self, damage_traits: List[DamageTrait]):
-        self.damage_traits = damage_traits
-
-    def get(self, against_type: List[str]):
-        pass
-
-class Fighter:
-    def __init__(self, hp: float, dmg: float, cooldown: float):
-        self.hp = hp
-        self.dmg = dmg
-        self.cooldown = cooldown
-    
-    @property
-    def dps(self) -> float:
-        return self.dmg / self.cooldown
-
 if __name__ == "__main__":
     simple_dps_hp_cost_of_each()
